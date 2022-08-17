@@ -1,4 +1,4 @@
-# My first react project (Quiz-dynamic)
+# My first personal react project (Quiz-dynamic)
 
 ![](./screenshot.jpg)
 
