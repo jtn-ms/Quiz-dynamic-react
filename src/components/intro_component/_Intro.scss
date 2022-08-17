@@ -1,0 +1,38 @@
+.quiz {
+  &__topic-heading {
+    font-size: 2.8rem;
+    margin-bottom: 2.6rem;
+    color: #087f5b;
+  }
+
+  .quiz__topics {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+
+  &__img {
+    width: 100%;
+    height: 16rem;
+  }
+
+  .topic {
+    cursor: pointer;
+    border-radius: 9px;
+    overflow: hidden;
+    background-color: #f1f3f5;
+    text-align: center;
+    transition: all 0.4s;
+  }
+
+  .topic:hover {
+    transform: scale(1.1);
+  }
+
+  .topic__title {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    padding: 4rem 0;
+  }
+}
